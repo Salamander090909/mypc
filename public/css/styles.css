@@ -1,0 +1,30 @@
+:root {
+    --mainBackground: rgb(244, 218, 218);
+}
+
+body {
+    background-color: var(--mainBackground);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.PcStand{
+    display: flex;
+    width: fit-content;
+    gap: 2rem;
+}
+
+.pcBuild {
+    width: 17rem;
+    height: 22rem;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.pcTittle {
+    border-bottom: 1px solid #cccccc;
+}
